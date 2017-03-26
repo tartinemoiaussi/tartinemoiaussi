@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Orator Std';
+  src: url('../fonts/OratorStd.eot');
+  src: url('../fonts/OratorStd.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OratorStd.woff2') format('woff2'),
+    url('../fonts/OratorStd.woff') format('woff'),
+    url('../fonts/OratorStd.ttf') format('truetype'),
+    url('../fonts/OratorStd.svg#OratorStd') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+html *{
+   font-family: 'Orator Std' !important;
+}
+
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/* Navigation bar */
+
+.navbar-nav>li>a {
+  color: #000;
+  font-size: 14px;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.icon-bar {
+  background-color: #000;
+}
+
+.nav>li>a {
+    padding-right: 25px;
+    padding-left: 25px;
+}
