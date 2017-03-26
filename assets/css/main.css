@@ -10,12 +10,21 @@
   font-style: normal;
 }
 
-html *{
-   font-family: 'Orator Std' !important;
+@font-face {
+	font-family: 'Chalkduster';
+	src: url('../fonts/Chalkduster.eot');
+	src: url('../fonts/Chalkduster.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Chalkduster.woff2') format('woff2'),
+		url('../fonts/Chalkduster.woff') format('woff'),
+		url('../fonts/Chalkduster.ttf') format('truetype'),
+		url('../fonts/Chalkduster.svg#Chalkduster') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 body {
   padding-top: 50px;
+  font-family: 'Orator Std';
 }
 .starter-template {
   padding: 40px 15px;
@@ -25,8 +34,8 @@ body {
 /* Navigation bar */
 
 .navbar-nav>li>a {
-  color: #000;
-  font-size: 14px;
+  color: black;
+  font-size: 16px;
 }
 
 .navbar-nav {
@@ -42,10 +51,20 @@ body {
 }
 
 .icon-bar {
-  background-color: #000;
+  background-color: black;
 }
 
 .nav>li>a {
     padding-right: 25px;
     padding-left: 25px;
+}
+
+/**/
+
+.black-box {
+  background-color: black;
+  padding: 40px 70px 35px 70px;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
 }
