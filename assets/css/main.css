@@ -32,21 +32,15 @@
 
   /* Navigation bar */
 
+  @media (min-width: 768px) {
+    .container>.navbar-header {
+      margin-right: 150px;
+    }
+  }
+
   .navbar-nav>li>a {
     color: black;
     font-size: 16px;
-  }
-
-  .navbar-nav {
-    float:none;
-    margin:0 auto;
-    display: block;
-    text-align: center;
-  }
-
-  .navbar-nav > li {
-    display: inline-block;
-    float:none;
   }
 
   .icon-bar {
