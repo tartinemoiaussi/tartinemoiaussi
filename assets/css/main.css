@@ -41,20 +41,46 @@ body {
 /* Navigation bar */
 
 @media (max-width: 768px) {
-  .nav-over {
-    padding-left: 15px  !important;
+  .navbar-collapse {
+    background-color: #fff;
+  }
+  .black-box {
+    padding: 10px 0px 5px 10px !important;
+  }
+  .footer-socials {
+    font-size: 1em !important;
+  }
+  .footer-socials>a>img {
+    width: 20px;
+  }
+  .footer {
+    font-size: 0.5em !important;
+    padding: 0px !important;
+  }
+  .footer>img {
+    width: 50px;
   }
 }
 
 @media (min-width: 768px) {
   .container>.navbar-header {
     margin-right: 150px;
+    padding-left: 100px;
   }
 }
 
 .navbar-nav>li>a {
   color: black;
   font-size: 1em;
+}
+
+.navbar-toggle {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+.navbar-brand {
+  padding-left: 0px;
 }
 
 .icon-bar {
@@ -71,7 +97,8 @@ body {
   top: 60px;
   left: 0px;
   width: 100%;
-  padding-left: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .nav-over>.container {
@@ -118,8 +145,18 @@ body {
   padding: 20px 10px 20px 10px;
 }
 
+.footer-socials-wrapper {
+  width: 100%;
+  height: 100%; 
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 .footer-socials {
-  font-size: 1.5em; 
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
   position: absolute; 
   top: 50%; 
   left: 50%; 
@@ -131,7 +168,7 @@ body {
   float: right; 
   font-family: 'Chalkduster';
   color: black;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 .footer-over {
