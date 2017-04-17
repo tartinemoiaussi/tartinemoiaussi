@@ -40,35 +40,6 @@ body {
 
 /* Navigation bar */
 
-@media (max-width: 768px) {
-  .navbar-collapse {
-    background-color: #fff;
-  }
-  .black-box {
-    padding: 10px 0px 5px 10px !important;
-  }
-  .footer-socials {
-    font-size: 1em !important;
-  }
-  .footer-socials>a>img {
-    width: 20px;
-  }
-  .footer {
-    font-size: 0.5em !important;
-    padding: 0px !important;
-  }
-  .footer>img {
-    width: 50px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container>.navbar-header {
-    margin-right: 150px;
-    padding-left: 100px;
-  }
-}
-
 .navbar-nav>li>a {
   color: black;
   font-size: 1em;
@@ -118,7 +89,7 @@ body {
   width: 100%;
 }
 
-/**/
+/* Box */
 
 .black-box {
   background-color: black;
@@ -128,13 +99,13 @@ body {
   font-size: 1em;
 }
 
-.green-box {
-  background-color: #94d08a;
-  padding: 50px 50px 20px 50px;
-  color: black;
-  width: 450px;
-  text-align: center;
-  font-size: 1em;
+/* Concept */
+
+.concept-wrapper {
+  position: absolute; 
+  top: 250px; 
+  left: 120px; 
+  max-width: 750px
 }
 
 .concept-box {
@@ -143,7 +114,37 @@ body {
   -moz-opacity:0.6; /* Mozilla */
   opacity: 0.6; /* CSS3 */
   padding: 20px 10px 20px 10px;
+  font-size: 1.2em;
+  text-align: justify;
 }
+
+/* Contact */
+
+.contact-box {
+  width: 60%; 
+  text-align: center; 
+  float: right;
+  margin-right: 100px;
+}
+
+.green-box {
+  background-color: #94d08a;
+  padding: 50px 50px 20px 50px;
+  color: black;
+  width: 450px;
+  text-align: center;
+  font-size: 1em;
+  clear: right; 
+  margin-left: 100px;
+}
+
+.google-map {
+  margin-right: 100px;
+  width: 60%;
+  float: right;
+}
+
+/* Footer */
 
 .footer-socials-wrapper {
   width: 100%;
@@ -183,4 +184,49 @@ body {
   width: 100%;
   text-align: right;
   font-size: 0.7em;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #fff;
+  }
+  .black-box {
+    padding: 10px 10px 5px 10px !important;
+  }
+  .footer-socials {
+    font-size: 1em !important;
+  }
+  .footer-socials>a>img {
+    width: 20px;
+  }
+  .footer {
+    font-size: 0.5em !important;
+    padding: 0px !important;
+  }
+  .footer>img {
+    width: 50px;
+  }
+  .green-box {
+    width: 70% !important;
+    margin-left: 30px;
+    padding: 20px 40px 5px 40px !important;
+  }
+  .contact-box {
+    margin-right: 30px;
+  }
+  .concept-wrapper {
+    left: 20px;
+    right: 20px;
+    top: 150px;
+  }
+  .concept-box {
+    font-size: 0.65em;
+  }
+}
+
+@media (min-width: 768px) {
+  .container>.navbar-header {
+    margin-right: 150px;
+    padding-left: 100px;
+  }
 }
