@@ -142,6 +142,7 @@ body {
   margin-right: 100px;
   width: 60%;
   float: right;
+  margin-bottom: 150px;
 }
 
 /* Footer */
@@ -213,6 +214,14 @@ body {
   }
   .concept-box {
     font-size: 0.65em;
+  }
+  .google-map {
+    margin-right: 30px;
+    margin-bottom: 50px;
+  }
+  .google-map>iframe {
+    width: 100%;
+    height: 200px;
   }
 }
 
